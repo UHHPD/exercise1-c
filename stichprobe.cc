@@ -23,7 +23,7 @@ int main() {
 
       variance += pow((z-mean),2);
   }
-  variance = variance/234;
+  variance = variance/(234);
   cout << "variance: " << variance << endl;
   double std = sqrt(variance);
   cout << "standard deviation: " << std << endl;
