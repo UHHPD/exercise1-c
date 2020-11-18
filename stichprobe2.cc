@@ -25,7 +25,7 @@ for (int i = 0; i < 234; i++) {
 }
 for (int j=0; j<26; j++) {
   mean[j] = mean[j]/9;
-  cout << "mean: " << mean[j] << endl;
+  //cout << "mean: " << mean[j] << endl;
   fout1 << mean[j] << endl;
   mean_mean+= mean[j];
 }
@@ -39,8 +39,8 @@ for (int i = 0; i < 234; i++) {
   variance[i/9] += pow((z-mean[i/9]),2);
 }
 for (int j=0; j<26; j++) {
-  variance[j] = variance[j]/(9-1);
-  cout << "variance: " << variance[j] << endl;
+  variance[j] = variance[j]/(9);
+  //cout << "variance: " << variance[j] << endl;
   fout2 << variance[j] << endl;
   mean_variance += variance[j];
 }
