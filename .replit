@@ -1,1 +1,2 @@
 language = "cpp"
+run = "g++ -c stichprobe2.cc; g++ -o stichprobe2 stichprobe2.o; ./stichprobe2"
